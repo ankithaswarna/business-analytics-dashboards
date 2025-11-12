@@ -28,14 +28,14 @@ An interactive dashboard built to analyze Amazon sales data and extract insights
 - Highlighted top regions contributing to total profit  
 
 ### 🔗 Live Dashboard
-👉 [View Amazon Dashboard](https://docs.google.com/spreadsheets/d/1u-k2-kHc0E9ShM_RaMnpGc6blcI6k5grE2tIRhkwM_8/edit?usp=sharing)
+👉 [View Amazon Sales Dashboard on Google Sheets](https://docs.google.com/spreadsheets/d/1u-k2-kHc0E9ShM_RaMnpGc6blcI6k5grE2tIRhkwM_8/edit?usp=sharing)
 
 ### 🖼 Dashboard Preview
-![Amazon Dashboard](./amazon-sales-analysis/images/amazon_sales_dashboard.png)
+![Amazon Sales Dashboard](https://github.com/ankithaswarna/business-analytics-dashboards/blob/main/dashboards_preview/amazon_sales_dashboard.png)
 
 ---
 
-## 👗 2. Customer Shopping Analysis Dashboard
+## 👗 2. Customer Behaviour Analysis Dashboard
 
 A customer behavior and purchasing pattern analysis dashboard developed to provide business insights into customer segmentation, frequency, and spending.
 
@@ -58,10 +58,10 @@ A customer behavior and purchasing pattern analysis dashboard developed to provi
 - Provided actionable insights for targeted marketing  
 
 ### 🔗 Live Dashboard
-👉 [View Customer Dashboard](https://docs.google.com/spreadsheets/d/1nRuU5j00cg_u0PxaJ9bl_pOlDLMbh7MWFyzMyhEmv-Y/edit?usp=sharing)
+👉 [View Customer Behaviour Dashboard on Google Sheets](https://docs.google.com/spreadsheets/d/1nRuU5j00cg_u0PxaJ9bl_pOlDLMbh7MWFyzMyhEmv-Y/edit?usp=sharing)
 
 ### 🖼 Dashboard Preview
-![Customer Dashboard](./customer-shopping-analysis/images/customer_shopping_dashboard.png)
+![Customer Behaviour Dashboard](https://github.com/ankithaswarna/business-analytics-dashboards/blob/main/dashboards_preview/customer_behaviour_dashboard.png)
 
 ---
 
@@ -78,30 +78,27 @@ A customer behavior and purchasing pattern analysis dashboard developed to provi
 
 ## 🏁 How to View
 
-1. Click the live links above to open each Google Sheets dashboard (view-only mode).  
+1. Click the links above to open each Google Sheets dashboard (view-only mode).  
 2. Use slicers and filters to explore the data interactively.  
-3. Check the `/images` folders for quick visual previews.
+3. Check the `/images` folder for quick visual previews.
 
 ---
 
 ## 📂 Repository Structure
 
-google-sheets-dashboards/
+business-analytics-dashboards/
 │
-├── amazon-sales-analysis/
-│ ├── dataset.csv
-│ └── images/
-│ └── amazon_sales_dashboard.png
+├── images/
+│   ├── amazon_sales_dashboard.png
+│   └── customer_behaviour_dashboard.png
 │
-├── customer-shopping-analysis/
-│ ├── dataset.csv
-│ └── images/
-│ └── customer_shopping_dashboard.png
+├── datasets/
+│   ├── amazon_sales_data.csv
+│   └── customer_behaviour_data.csv
 │
+├── LICENSE
 └── README.md
 
-yaml
-Copy code
 
 ---
 
